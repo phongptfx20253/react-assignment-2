@@ -1,0 +1,37 @@
+.navbar {
+  color: white;
+  font-size: 1.4rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.6);
+  transition: background-color 0.3s ease-in-out;
+}
+
+.navbarDark {
+  background-color: #000 !important;
+}
+
+.navbarTransparent {
+  background-color: transparent !important;
+}
+
+.navContainer {
+  padding: 1rem 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 3rem;
+}
+
+.left a {
+  color: red;
+  font-weight: bold;
+  text-decoration: none;
+}
+.searchIcon {
+  height: 2.5rem;
+  cursor: pointer;
+}

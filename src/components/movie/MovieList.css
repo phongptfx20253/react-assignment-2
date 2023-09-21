@@ -1,0 +1,42 @@
+.movieList {
+  width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 5rem;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
+.movieList::-webkit-scrollbar {
+  width: 4px; /* Kích thước chiều rộng */
+  height: 5px;
+}
+
+/* Thanh cuộn được hover */
+.movieList::-webkit-scrollbar-thumb:hover {
+  background-color: #555; /* Màu sắc */
+}
+
+/* Thanh cuộn khi được active (click chuột) */
+.movieList::-webkit-scrollbar-thumb:active {
+  background-color: #202020; /* Màu sắc */
+}
+
+/* Thanh cuộn khi không hover và active */
+.movieList::-webkit-scrollbar-thumb {
+  background-color: #222020; /* Màu sắc */
+}
+
+.movieListTitle {
+  color: white;
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-left: 4rem;
+  margin-bottom: 1rem;
+}
+
+.mlContainer {
+  margin-left: 5rem;
+  display: flex;
+  width: max-content;
+}

@@ -1,0 +1,12 @@
+.search {
+  background-color: black;
+  width: 100%;
+  /* overflow: hidden; */
+  padding-top: 60px;
+}
+
+.search form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}

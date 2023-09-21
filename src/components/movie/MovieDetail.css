@@ -1,0 +1,31 @@
+.movieDetail {
+  width: 100%;
+}
+
+.mdContainer {
+  display: flex;
+  gap: 2rem;
+  margin: 2.5rem;
+}
+
+.mdInfo {
+  flex: 1;
+  color: white;
+}
+
+.mdTrailer {
+  flex: 1;
+}
+
+.mdTrailerImg {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.noTrailerImg {
+  width: 100%;
+  height: 400px;
+  object-fit: contain;
+}
